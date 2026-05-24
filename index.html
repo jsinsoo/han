@@ -1,99 +1,128 @@
 <!DOCTYPE html>
-<!-- saved from url=(0048)index.html -->
+<!-- saved from url=(0049)index.html -->
 <html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>인수샘 고전 한문 교실</title>
+<title>고전 한문 자료 모바일 앱</title>
+
 <style>
-    *{
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-    }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-    body{
-        display:flex;
-        height:100vh;
-        font-family:'Malgun Gothic', sans-serif;
-        overflow:hidden;
-    }
+body{
+    font-family:'Malgun Gothic', sans-serif;
+    background:#f5f5f5;
+    overflow:hidden;
+}
 
-    .sidebar{
-        width:20%;
-        min-width:260px;
-        background:#1f2937;
-        color:white;
-        padding:20px;
-        overflow-y:auto;
-    }
+.topbar{
+    width:100%;
+    background:#111827;
+    color:white;
+    padding:12px;
+    overflow-x:auto;
+    white-space:nowrap;
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
 
-    .sidebar h1{
-        font-size:24px;
-        margin-bottom:20px;
-        text-align:center;
-        color:#facc15;
-    }
+.topbar label{
+    display:inline-block;
+}
 
-    .menu a{
-        display:block;
-        padding:14px;
-        margin-bottom:10px;
-        background:#374151;
-        color:white;
-        text-decoration:none;
-        border-radius:10px;
-        transition:0.3s;
-        font-size:16px;
-    }
+.topbar input[type=radio]{
+    display:none;
+}
 
-    .menu a:hover{
-        background:#2563eb;
-        transform:translateX(5px);
-    }
+.topbar span{
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:25px;
+    background:#374151;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:15px;
+}
 
-    .content{
-        width:80%;
-        height:100vh;
-    }
+.topbar input[type=radio]:checked + span{
+    background:#2563eb;
+    color:white;
+    font-weight:bold;
+}
 
-    iframe{
-        width:100%;
-        height:100%;
-        border:none;
-        background:white;
-    }
+.viewer{
+    width:100%;
+    height:calc(100vh - 70px);
+}
 
-    .footer{
-        margin-top:20px;
-        font-size:13px;
-        color:#d1d5db;
-        text-align:center;
-    }
+iframe{
+    width:100%;
+    height:100%;
+    border:none;
+    background:white;
+}
 </style>
+
+<script>
+function loadPage(page){
+    document.getElementById('viewerFrame').src = page;
+}
+</script>
+
 </head>
 <body>
 
-<div class="sidebar">
-    <h1>인수샘 고전 한문 교실</h1>
+<div class="topbar">
 
-    <div class="menu">
-        <a href="00.html" target="contentFrame">00. 명심보감 한줄 번역</a>
-        <a href="01.html" target="contentFrame">01. 사서삼경 논어</a>
-        <a href="02.html" target="contentFrame">02. 사서삼경 맹자</a>
-        <a href="03.html" target="contentFrame">03. 사서삼경 중용</a>
-        <a href="04.html" target="contentFrame">04. 사서삼경 대학</a>
-        <a href="05.html" target="contentFrame">05. 사서삼경 시경</a>
-        <a href="06.html" target="contentFrame">06. 사서삼경 서경</a>
-        <a href="07.html" target="contentFrame">07. 주역 64괘</a>
-    </div>
+<label>
+<input type="radio" name="menu" checked="" onclick="loadPage(&#39;00.html&#39;)">
+<span>명심보감</span>
+</label>
 
-    <div class="footer">
-        한자 원문 · 한글 독음 · 번역 · 영어 번역
-    </div>
+<label>
+<input type="radio" name="menu" onclick="loadPage(&#39;01.html&#39;)">
+<span>논어</span>
+</label>
+
+<label>
+<input type="radio" name="menu" onclick="loadPage(&#39;02.html&#39;)">
+<span>맹자</span>
+</label>
+
+<label>
+<input type="radio" name="menu" onclick="loadPage(&#39;03.html&#39;)">
+<span>중용</span>
+</label>
+
+<label>
+<input type="radio" name="menu" onclick="loadPage(&#39;04.html&#39;)">
+<span>대학</span>
+</label>
+
+<label>
+<input type="radio" name="menu" onclick="loadPage(&#39;05.html&#39;)">
+<span>시경</span>
+</label>
+
+<label>
+<input type="radio" name="menu" onclick="loadPage(&#39;06.html&#39;)">
+<span>서경</span>
+</label>
+
+<label>
+<input type="radio" name="menu" onclick="loadPage(&#39;07.html&#39;)">
+<span>주역64괘</span>
+</label>
+
 </div>
 
-<div class="content">
-    <iframe name="contentFrame" src="00.html"></iframe>
+<div class="viewer">
+<iframe id="viewerFrame" src="00.html"></iframe>
 </div>
 
 
