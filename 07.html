@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0060)07.html#h64 -->
 <html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,6 +25,65 @@
   .en{color:#35404a;font-family:Georgia,'Times New Roman',serif;}
   footer{text-align:center;padding:25px;color:#7a6b5c;background:#efe3d0;border-top:1px solid #dcc7aa;}
   @media(max-width:640px){.symbol{font-size:4.5rem;width:108px;height:108px}.title h2{font-size:1.35rem}header h1{font-size:1.75rem}}
+
+  .dropdown-nav{
+    position:sticky;
+    top:0;
+    background:#fffaf0;
+    border-bottom:1px solid #d8c7aa;
+    padding:14px 18px;
+    z-index:100;
+    box-shadow:0 3px 10px rgba(0,0,0,.06);
+  }
+  .dropbox{
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .dropbox label{
+    font-weight:700;
+    color:#4a321d;
+    font-size:1rem;
+  }
+  .dropbox select{
+    min-width:260px;
+    max-width:100%;
+    padding:10px 14px;
+    border:1px solid #c9ab7b;
+    border-radius:12px;
+    background:white;
+    color:#3b2a1a;
+    font-size:1rem;
+    font-family:'Malgun Gothic', sans-serif;
+  }
+  .dropbox button{
+    padding:10px 18px;
+    border:0;
+    border-radius:12px;
+    background:#7b552c;
+    color:white;
+    cursor:pointer;
+    font-weight:700;
+    font-size:1rem;
+  }
+  .dropbox button:hover{
+    background:#a97942;
+  }
+  @media(max-width:640px){
+    .dropbox{
+      justify-content:stretch;
+    }
+    .dropbox label,
+    .dropbox select,
+    .dropbox button{
+      width:100%;
+    }
+  }
+
 </style>
 </head>
 <body>
@@ -33,72 +91,81 @@
   <h1>주역 64괘</h1>
   <p>각 괘의 그림, 괘이름, 한자, 핵심 의미, 주역 괘사 원문, 한글 독음, 한글 번역, 영어 번역을 표 없이 정리한 학습용 HTML입니다.</p>
 </header>
-<nav>
-<a href="07.html#h1">1. 건괘</a>
-<a href="07.html#h2">2. 곤괘</a>
-<a href="07.html#h3">3. 둔괘</a>
-<a href="07.html#h4">4. 몽괘</a>
-<a href="07.html#h5">5. 수괘</a>
-<a href="07.html#h6">6. 송괘</a>
-<a href="07.html#h7">7. 사괘</a>
-<a href="07.html#h8">8. 비괘</a>
-<a href="07.html#h9">9. 소축괘</a>
-<a href="07.html#h10">10. 리괘</a>
-<a href="07.html#h11">11. 태괘</a>
-<a href="07.html#h12">12. 비괘</a>
-<a href="07.html#h13">13. 동인괘</a>
-<a href="07.html#h14">14. 대유괘</a>
-<a href="07.html#h15">15. 겸괘</a>
-<a href="07.html#h16">16. 예괘</a>
-<a href="07.html#h17">17. 수괘</a>
-<a href="07.html#h18">18. 고괘</a>
-<a href="07.html#h19">19. 림괘</a>
-<a href="07.html#h20">20. 관괘</a>
-<a href="07.html#h21">21. 서합괘</a>
-<a href="07.html#h22">22. 비괘</a>
-<a href="07.html#h23">23. 박괘</a>
-<a href="07.html#h24">24. 복괘</a>
-<a href="07.html#h25">25. 무망괘</a>
-<a href="07.html#h26">26. 대축괘</a>
-<a href="07.html#h27">27. 이괘</a>
-<a href="07.html#h28">28. 대과괘</a>
-<a href="07.html#h29">29. 감괘</a>
-<a href="07.html#h30">30. 리괘</a>
-<a href="07.html#h31">31. 함괘</a>
-<a href="07.html#h32">32. 항괘</a>
-<a href="07.html#h33">33. 둔괘</a>
-<a href="07.html#h34">34. 대장괘</a>
-<a href="07.html#h35">35. 진괘</a>
-<a href="07.html#h36">36. 명이괘</a>
-<a href="07.html#h37">37. 가인괘</a>
-<a href="07.html#h38">38. 규괘</a>
-<a href="07.html#h39">39. 건괘</a>
-<a href="07.html#h40">40. 해괘</a>
-<a href="07.html#h41">41. 손괘</a>
-<a href="07.html#h42">42. 익괘</a>
-<a href="07.html#h43">43. 쾌괘</a>
-<a href="07.html#h44">44. 구괘</a>
-<a href="07.html#h45">45. 취괘</a>
-<a href="07.html#h46">46. 승괘</a>
-<a href="07.html#h47">47. 곤괘</a>
-<a href="07.html#h48">48. 정괘</a>
-<a href="07.html#h49">49. 혁괘</a>
-<a href="07.html#h50">50. 정괘</a>
-<a href="07.html#h51">51. 진괘</a>
-<a href="07.html#h52">52. 간괘</a>
-<a href="07.html#h53">53. 점괘</a>
-<a href="07.html#h54">54. 귀매괘</a>
-<a href="07.html#h55">55. 풍괘</a>
-<a href="07.html#h56">56. 려괘</a>
-<a href="07.html#h57">57. 손괘</a>
-<a href="07.html#h58">58. 태괘</a>
-<a href="07.html#h59">59. 환괘</a>
-<a href="07.html#h60">60. 절괘</a>
-<a href="07.html#h61">61. 중부괘</a>
-<a href="07.html#h62">62. 소과괘</a>
-<a href="07.html#h63">63. 기제괘</a>
-<a href="07.html#h64">64. 미제괘</a>
+
+<nav class="dropdown-nav">
+  <div class="dropbox">
+    <label for="hexSelect">주역 64괘 바로가기</label>
+    <select id="hexSelect" onchange="goHexagram()">
+      <option value="">괘를 선택하세요</option>
+      <option value="#h1">1. 건괘</option>
+<option value="#h2">2. 곤괘</option>
+<option value="#h3">3. 둔괘</option>
+<option value="#h4">4. 몽괘</option>
+<option value="#h5">5. 수괘</option>
+<option value="#h6">6. 송괘</option>
+<option value="#h7">7. 사괘</option>
+<option value="#h8">8. 비괘</option>
+<option value="#h9">9. 소축괘</option>
+<option value="#h10">10. 리괘</option>
+<option value="#h11">11. 태괘</option>
+<option value="#h12">12. 비괘</option>
+<option value="#h13">13. 동인괘</option>
+<option value="#h14">14. 대유괘</option>
+<option value="#h15">15. 겸괘</option>
+<option value="#h16">16. 예괘</option>
+<option value="#h17">17. 수괘</option>
+<option value="#h18">18. 고괘</option>
+<option value="#h19">19. 림괘</option>
+<option value="#h20">20. 관괘</option>
+<option value="#h21">21. 서합괘</option>
+<option value="#h22">22. 비괘</option>
+<option value="#h23">23. 박괘</option>
+<option value="#h24">24. 복괘</option>
+<option value="#h25">25. 무망괘</option>
+<option value="#h26">26. 대축괘</option>
+<option value="#h27">27. 이괘</option>
+<option value="#h28">28. 대과괘</option>
+<option value="#h29">29. 감괘</option>
+<option value="#h30">30. 리괘</option>
+<option value="#h31">31. 함괘</option>
+<option value="#h32">32. 항괘</option>
+<option value="#h33">33. 둔괘</option>
+<option value="#h34">34. 대장괘</option>
+<option value="#h35">35. 진괘</option>
+<option value="#h36">36. 명이괘</option>
+<option value="#h37">37. 가인괘</option>
+<option value="#h38">38. 규괘</option>
+<option value="#h39">39. 건괘</option>
+<option value="#h40">40. 해괘</option>
+<option value="#h41">41. 손괘</option>
+<option value="#h42">42. 익괘</option>
+<option value="#h43">43. 쾌괘</option>
+<option value="#h44">44. 구괘</option>
+<option value="#h45">45. 취괘</option>
+<option value="#h46">46. 승괘</option>
+<option value="#h47">47. 곤괘</option>
+<option value="#h48">48. 정괘</option>
+<option value="#h49">49. 혁괘</option>
+<option value="#h50">50. 정괘</option>
+<option value="#h51">51. 진괘</option>
+<option value="#h52">52. 간괘</option>
+<option value="#h53">53. 점괘</option>
+<option value="#h54">54. 귀매괘</option>
+<option value="#h55">55. 풍괘</option>
+<option value="#h56">56. 려괘</option>
+<option value="#h57">57. 손괘</option>
+<option value="#h58">58. 태괘</option>
+<option value="#h59">59. 환괘</option>
+<option value="#h60">60. 절괘</option>
+<option value="#h61">61. 중부괘</option>
+<option value="#h62">62. 소과괘</option>
+<option value="#h63">63. 기제괘</option>
+<option value="#h64">64. 미제괘</option>
+    </select>
+    <button type="button" onclick="goHexagram()">이동</button>
+  </div>
 </nav>
+
 <main>
 <section class="block"><div class="label">안내</div><div>이 자료는 학습용으로 64괘의 대표 괘사 중심 원문을 정리했습니다. 효사 전체까지 포함하면 분량이 매우 커지므로, 각 괘의 핵심을 파악하기 좋게 구성했습니다.</div></section>
 
@@ -998,4 +1065,27 @@
   <div class="block"><div class="label">English Translation</div><div class="en">Wei Ji means before completion: progress. A young fox nearly crosses but wets its tail; nothing is beneficial.</div></div>
 </section>
 </main><footer>주역 64괘 학습용 HTML · 괘사 중심 정리</footer>
+
+<script>
+function goHexagram(){
+  const select = document.getElementById("hexSelect");
+  const target = select.value;
+  if(target){
+    location.hash = target;
+  }
+}
+window.addEventListener("hashchange", function(){
+  const select = document.getElementById("hexSelect");
+  if(select){
+    select.value = location.hash || "";
+  }
+});
+window.addEventListener("DOMContentLoaded", function(){
+  const select = document.getElementById("hexSelect");
+  if(select && location.hash){
+    select.value = location.hash;
+  }
+});
+</script>
+
 </body></html>
