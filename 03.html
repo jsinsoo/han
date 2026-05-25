@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0157)03.html -->
+<!-- saved from url=(0143)file:///C:/Users/user/Downloads/%EC%A4%91%EC%9A%A9_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#c29 -->
 <html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>사서삼경 중용 한줄 번역</title><style>
 :root{--bg:#f7f5ef;--card:#fffdf8;--ink:#27231c;--muted:#6f6658;--accent:#8a5a2b;--line:#e6dccb}
 *{box-sizing:border-box} body{margin:0;background:linear-gradient(120deg,#f7f5ef,#efe6d8);font-family:"Noto Serif KR","Malgun Gothic",serif;color:var(--ink);line-height:1.75}
@@ -8,10 +8,57 @@ nav{position:sticky;top:0;background:#fffaf0;border-bottom:1px solid var(--line)
 main{max-width:1100px;margin:0 auto;padding:30px 18px 80px}.chapter{margin:34px 0}.chapter h2{border-left:8px solid var(--accent);padding-left:14px;font-size:1.6rem;color:#5b3518}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;margin:16px 0;padding:22px;box-shadow:0 8px 24px rgba(80,50,20,.08)}
 .label{display:inline-block;font-size:.85rem;color:#fff;background:var(--accent);border-radius:999px;padding:2px 10px;margin-right:8px}.han{font-size:1.42rem;font-weight:700;color:#1f1a14;letter-spacing:.02em}.read{font-size:1.05rem;color:#5c4b3e}.ko{font-size:1.08rem}.en{font-size:1rem;color:#51483f}.note{background:#fff8e8;border:1px solid #ead8ad;border-radius:16px;padding:18px;margin:20px 0;color:#5c4730} footer{text-align:center;padding:30px;color:#756a5f}
+
+.dropdown-wrap{
+position:sticky;
+top:0;
+z-index:999;
+background:#fffaf0;
+border-bottom:2px solid #d8c3a3;
+padding:18px 22px;
+box-shadow:0 4px 12px rgba(0,0,0,.06);
+}
+.dropdown-wrap label{
+display:block;
+font-size:19px;
+font-weight:900;
+margin-bottom:10px;
+color:#6b411d;
+}
+.dropdown-wrap select{
+width:100%;
+padding:14px 16px;
+font-size:18px;
+font-weight:700;
+border-radius:14px;
+border:2px solid #9b6a3d;
+background:white;
+}
+.han{
+font-size:2.2rem !important;
+font-weight:900 !important;
+line-height:2 !important;
+display:block;
+margin-top:10px;
+}
+.chapter{
+scroll-margin-top:130px;
+}
+@media(max-width:700px){
+.han{font-size:1.7rem !important;}
+}
+
 </style></head><body>
 <header><h1>사서삼경 『중용』 한줄 한줄 읽기</h1><div class="sub">한자 원문 · 한글 독음 · 한글 번역 · 영어 번역 / 표 없이 카드형 구성</div></header>
-<nav><a href="03.html#c1">1</a> <a href="03.html#c2">2</a> <a href="03.html#c3">3</a> <a href="03.html#c4">4</a> <a href="03.html#c5">5</a> <a href="03.html#c6">6</a> <a href="03.html#c7">7</a> <a href="03.html#c8">8</a> <a href="03.html#c9">9</a> <a href="03.html#c10">10</a> <a href="03.html#c11">11</a> <a href="03.html#c12">12</a> <a href="03.html#c13">13</a> <a href="03.html#c14">14</a> <a href="03.html#c15">15</a> <a href="03.html#c16">16</a> <a href="03.html#c17">17</a> <a href="03.html#c18">18</a> <a href="03.html#c19">19</a> <a href="03.html#c20">20</a> <a href="03.html#c21">21</a> <a href="03.html#c22">22</a> <a href="03.html#c23">23</a> <a href="03.html#c24">24</a> <a href="03.html#c25">25</a> <a href="03.html#c26">26</a> <a href="03.html#c27">27</a> <a href="03.html#c28">28</a> <a href="03.html#c29">29</a> <a href="03.html#c30">30</a> <a href="03.html#c31">31</a> <a href="03.html#c32">32</a> <a href="03.html#c33">33</a></nav><main>
-<div class="note">※ 앞부분 주요 구절은 한글 독음과 번역을 상세히 넣었고, 전체 33장 본문은 문장·구절 단위로 이어지게 구성했습니다. 수업용으로 바로 다듬어 쓸 수 있도록 표는 사용하지 않았습니다.</div>
+
+<div class="dropdown-wrap">
+<label for="chapterSelect">『중용』 장(章) 바로가기</label>
+<select id="chapterSelect" onchange="if(this.value) location.hash=this.value;">
+<option value="">장(章) 선택하기</option><option value="#c1">第1章</option><option value="#c2">第2章</option><option value="#c3">第3章</option><option value="#c4">第4章</option><option value="#c5">第5章</option><option value="#c6">第6章</option><option value="#c7">第7章</option><option value="#c8">第8章</option><option value="#c9">第9章</option><option value="#c10">第10章</option><option value="#c11">第11章</option><option value="#c12">第12章</option><option value="#c13">第13章</option><option value="#c14">第14章</option><option value="#c15">第15章</option><option value="#c16">第16章</option><option value="#c17">第17章</option><option value="#c18">第18章</option><option value="#c19">第19章</option><option value="#c20">第20章</option><option value="#c21">第21章</option><option value="#c22">第22章</option><option value="#c23">第23章</option><option value="#c24">第24章</option><option value="#c25">第25章</option><option value="#c26">第26章</option><option value="#c27">第27章</option><option value="#c28">第28章</option><option value="#c29">第29章</option><option value="#c30">第30章</option><option value="#c31">第31章</option><option value="#c32">第32章</option><option value="#c33">第33章</option>
+</select>
+</div>
+<main>
+<div class="note">※ 드롭다운에서 『중용』 각 장(章)을 선택하면 바로 이동합니다. 한자 원문은 큰 글씨로 읽기 좋게 구성했으며 전체 내용을 빠짐없이 유지했습니다.</div>
 <section class="chapter" id="c1"><h2>第1章</h2>
 <article class="card">
 <p><span class="label">원문 1-1</span><span class="han">天命之謂性，率性之謂道，修道之謂教。</span></p>

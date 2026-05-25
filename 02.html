@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0148)02.html -->
+<!-- saved from url=(0142)file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#s3 -->
 <html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,48 @@ h2{font-size:30px;color:#5c3418;border-left:8px solid #8b5a2b;padding-left:14px;
 .row b{color:#7b4a1f}
 footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px;margin-top:60px}
 .toplink{float:right;font-size:14px;text-decoration:none;color:#8b5a2b}
+
+.dropdown-wrap{
+position:sticky;
+top:0;
+z-index:999;
+background:#fff8ec;
+border-bottom:2px solid #d9c5a9;
+padding:18px 28px;
+box-shadow:0 3px 12px rgba(0,0,0,.06);
+}
+.dropdown-wrap label{
+display:block;
+font-size:18px;
+font-weight:900;
+margin-bottom:10px;
+color:#6e3d15;
+}
+.dropdown-wrap select{
+width:100%;
+padding:14px 16px;
+border-radius:14px;
+border:2px solid #b88955;
+font-size:18px;
+font-weight:700;
+background:white;
+font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;
+}
+.hanja{
+font-size:38px !important;
+font-weight:900 !important;
+line-height:2 !important;
+letter-spacing:.03em;
+color:#111 !important;
+}
+section{
+scroll-margin-top:130px;
+}
+@media(max-width:700px){
+.hanja{font-size:30px !important;}
+.dropdown-wrap{padding:16px 18px;}
+}
+
 </style>
 </head>
 <body id="top">
@@ -30,26 +72,18 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 <h1>사서삼경 『맹자』 한줄 한줄 읽기</h1>
 <p>한자 원문 · 한글 독음 · 한글 번역 · 영어 번역 / 표 없이 카드형 구성</p>
 </header>
-<nav>
-<a href="02.html#s1">양혜왕 상</a>
-<a href="02.html#s2">양혜왕 하</a>
-<a href="02.html#s3">공손추 상</a>
-<a href="02.html#s4">공손추 하</a>
-<a href="02.html#s5">등문공 상</a>
-<a href="02.html#s6">등문공 하</a>
-<a href="02.html#s7">이루 상</a>
-<a href="02.html#s8">이루 하</a>
-<a href="02.html#s9">만장 상</a>
-<a href="02.html#s10">만장 하</a>
-<a href="02.html#s11">고자 상</a>
-<a href="02.html#s12">고자 하</a>
-<a href="02.html#s13">진심 상</a>
-<a href="02.html#s14">진심 하</a>
-</nav>
+
+<div class="dropdown-wrap">
+<label for="chapterSelect">『맹자』 편 제목 바로가기</label>
+<select id="chapterSelect" onchange="if(this.value) location.hash=this.value;">
+<option value="">편 제목 선택</option><option value="#s1">양혜왕 상</option><option value="#s2">양혜왕 하</option><option value="#s3">공손추 상</option><option value="#s4">공손추 하</option><option value="#s5">등문공 상</option><option value="#s6">등문공 하</option><option value="#s7">이루 상</option><option value="#s8">이루 하</option><option value="#s9">만장 상</option><option value="#s10">만장 하</option><option value="#s11">고자 상</option><option value="#s12">고자 하</option><option value="#s13">진심 상</option><option value="#s14">진심 하</option>
+</select>
+</div>
+
 <main>
-<div class="notice">※ 위쪽 제목 링크를 누르면 해당 편으로 바로 이동합니다. 각 구절은 수업용으로 읽기 좋게 한자 원문, 한글 독음, 한글 번역, 영어 번역 순서로 정리했습니다.</div>
+<div class="notice">※ 드롭다운에서 『맹자』 편 제목을 선택하면 해당 편으로 바로 이동합니다. 한자 원문은 큰 글씨로 잘 보이게 구성했으며, 전체 원문을 빠짐없이 유지했습니다.</div>
 <section id="s1">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>양혜왕 상 <span style="font-size:22px;">梁惠王上</span></h2>
 <article class="card">
 <div><span class="badge">원문 1</span></div>
@@ -95,7 +129,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s2">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>양혜왕 하 <span style="font-size:22px;">梁惠王下</span></h2>
 <article class="card">
 <div><span class="badge">원문 7</span></div>
@@ -141,7 +175,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s3">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>공손추 상 <span style="font-size:22px;">公孫丑上</span></h2>
 <article class="card">
 <div><span class="badge">원문 13</span></div>
@@ -187,7 +221,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s4">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>공손추 하 <span style="font-size:22px;">公孫丑下</span></h2>
 <article class="card">
 <div><span class="badge">원문 19</span></div>
@@ -226,7 +260,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s5">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>등문공 상 <span style="font-size:22px;">滕文公上</span></h2>
 <article class="card">
 <div><span class="badge">원문 24</span></div>
@@ -265,7 +299,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s6">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>등문공 하 <span style="font-size:22px;">滕文公下</span></h2>
 <article class="card">
 <div><span class="badge">원문 29</span></div>
@@ -297,7 +331,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s7">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>이루 상 <span style="font-size:22px;">離婁上</span></h2>
 <article class="card">
 <div><span class="badge">원문 33</span></div>
@@ -336,7 +370,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s8">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>이루 하 <span style="font-size:22px;">離婁下</span></h2>
 <article class="card">
 <div><span class="badge">원문 38</span></div>
@@ -375,7 +409,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s9">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>만장 상 <span style="font-size:22px;">萬章上</span></h2>
 <article class="card">
 <div><span class="badge">원문 43</span></div>
@@ -414,7 +448,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s10">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>만장 하 <span style="font-size:22px;">萬章下</span></h2>
 <article class="card">
 <div><span class="badge">원문 48</span></div>
@@ -453,7 +487,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s11">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>고자 상 <span style="font-size:22px;">告子上</span></h2>
 <article class="card">
 <div><span class="badge">원문 53</span></div>
@@ -513,7 +547,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s12">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>고자 하 <span style="font-size:22px;">告子下</span></h2>
 <article class="card">
 <div><span class="badge">원문 61</span></div>
@@ -552,7 +586,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s13">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>진심 상 <span style="font-size:22px;">盡心上</span></h2>
 <article class="card">
 <div><span class="badge">원문 66</span></div>
@@ -598,7 +632,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="s14">
-<a class="toplink" href="02.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EB%A7%B9%EC%9E%90_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>진심 하 <span style="font-size:22px;">盡心下</span></h2>
 <article class="card">
 <div><span class="badge">원문 72</span></div>

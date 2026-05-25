@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0152)06.html#top -->
+<!-- saved from url=(0142)file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#c1 -->
 <html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,48 @@ h2{font-size:30px;color:#5c3418;border-left:8px solid #8b5a2b;padding-left:14px;
 .row b{color:#7b4a1f}
 .toplink{float:right;font-size:14px;text-decoration:none;color:#8b5a2b}
 footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px;margin-top:60px}
+
+.dropdown-wrap{
+position:sticky;
+top:0;
+z-index:999;
+background:#fff8ec;
+border-bottom:2px solid #d9c5a9;
+padding:18px 22px;
+box-shadow:0 3px 12px rgba(0,0,0,.06);
+}
+.dropdown-wrap label{
+display:block;
+font-size:18px;
+font-weight:900;
+margin-bottom:10px;
+color:#6e3d15;
+}
+.dropdown-wrap select{
+width:100%;
+padding:14px 16px;
+border-radius:14px;
+border:2px solid #b88955;
+font-size:18px;
+font-weight:700;
+background:white;
+font-family:'Malgun Gothic','Apple SD Gothic Neo',sans-serif;
+}
+.hanja{
+font-size:38px !important;
+font-weight:900 !important;
+line-height:2 !important;
+letter-spacing:.03em;
+color:#111 !important;
+}
+section{
+scroll-margin-top:130px;
+}
+@media(max-width:700px){
+.hanja{font-size:30px !important;}
+.dropdown-wrap{padding:16px 18px;}
+}
+
 </style>
 </head>
 <body id="top">
@@ -30,31 +72,18 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 <h1>사서삼경 『서경』 한줄 한줄 읽기</h1>
 <p>한자 원문 · 한글 독음 · 한글 번역 · 영어 번역 / 표 없이 카드형 구성</p>
 </header>
-<nav>
-<a href="06.html#c1">요전</a>
-<a href="06.html#c2">순전</a>
-<a href="06.html#c3">대우모</a>
-<a href="06.html#c4">고요모</a>
-<a href="06.html#c5">익직</a>
-<a href="06.html#c6">탕서</a>
-<a href="06.html#c7">반경 상</a>
-<a href="06.html#c8">서백감려</a>
-<a href="06.html#c9">목서</a>
-<a href="06.html#c10">홍범</a>
-<a href="06.html#c11">금등</a>
-<a href="06.html#c12">대고</a>
-<a href="06.html#c13">강고</a>
-<a href="06.html#c14">주고</a>
-<a href="06.html#c15">소고</a>
-<a href="06.html#c16">낙고</a>
-<a href="06.html#c17">다사</a>
-<a href="06.html#c18">무일</a>
-<a href="06.html#c19">입정</a>
-</nav>
+
+<div class="dropdown-wrap">
+<label for="chapterSelect">『서경』 편 제목 바로가기</label>
+<select id="chapterSelect" onchange="if(this.value) location.hash=this.value;">
+<option value="">편 제목 선택</option><option value="#c1">요전</option><option value="#c2">순전</option><option value="#c3">대우모</option><option value="#c4">고요모</option><option value="#c5">익직</option><option value="#c6">탕서</option><option value="#c7">반경 상</option><option value="#c8">서백감려</option><option value="#c9">목서</option><option value="#c10">홍범</option><option value="#c11">금등</option><option value="#c12">대고</option><option value="#c13">강고</option><option value="#c14">주고</option><option value="#c15">소고</option><option value="#c16">낙고</option><option value="#c17">다사</option><option value="#c18">무일</option><option value="#c19">입정</option>
+</select>
+</div>
+
 <main>
-<div class="notice">※ 위쪽에 각 편 제목 링크를 달았습니다. 제목을 누르면 해당 편으로 바로 이동합니다. 『서경』은 편수가 많으므로 수업에서 자주 다루는 대표 편과 핵심 구절을 한 줄 읽기 형식으로 정리했습니다.</div>
+<div class="notice">※ 드롭다운에서 『서경』 편 제목을 선택하면 해당 편으로 바로 이동합니다. 한자 원문은 큰 글씨로 잘 보이게 구성했으며, 전체 원문을 빠짐없이 유지했습니다.</div>
 <section id="c1">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>요전 <span style="font-size:22px;">堯典</span></h2>
 <article class="card">
 <div><span class="badge">원문 1</span></div>
@@ -93,7 +122,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c2">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>순전 <span style="font-size:22px;">舜典</span></h2>
 <article class="card">
 <div><span class="badge">원문 6</span></div>
@@ -132,7 +161,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c3">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>대우모 <span style="font-size:22px;">大禹謨</span></h2>
 <article class="card">
 <div><span class="badge">원문 11</span></div>
@@ -171,7 +200,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c4">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>고요모 <span style="font-size:22px;">皋陶謨</span></h2>
 <article class="card">
 <div><span class="badge">원문 16</span></div>
@@ -210,7 +239,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c5">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>익직 <span style="font-size:22px;">益稷</span></h2>
 <article class="card">
 <div><span class="badge">원문 21</span></div>
@@ -249,7 +278,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c6">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>탕서 <span style="font-size:22px;">湯誓</span></h2>
 <article class="card">
 <div><span class="badge">원문 26</span></div>
@@ -288,7 +317,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c7">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>반경 상 <span style="font-size:22px;">盤庚上</span></h2>
 <article class="card">
 <div><span class="badge">원문 31</span></div>
@@ -327,7 +356,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c8">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>서백감려 <span style="font-size:22px;">西伯戡黎</span></h2>
 <article class="card">
 <div><span class="badge">원문 36</span></div>
@@ -366,7 +395,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c9">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>목서 <span style="font-size:22px;">牧誓</span></h2>
 <article class="card">
 <div><span class="badge">원문 41</span></div>
@@ -405,7 +434,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c10">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>홍범 <span style="font-size:22px;">洪範</span></h2>
 <article class="card">
 <div><span class="badge">원문 46</span></div>
@@ -444,7 +473,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c11">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>금등 <span style="font-size:22px;">金縢</span></h2>
 <article class="card">
 <div><span class="badge">원문 51</span></div>
@@ -483,7 +512,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c12">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>대고 <span style="font-size:22px;">大誥</span></h2>
 <article class="card">
 <div><span class="badge">원문 56</span></div>
@@ -522,7 +551,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c13">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>강고 <span style="font-size:22px;">康誥</span></h2>
 <article class="card">
 <div><span class="badge">원문 61</span></div>
@@ -561,7 +590,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c14">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>주고 <span style="font-size:22px;">酒誥</span></h2>
 <article class="card">
 <div><span class="badge">원문 66</span></div>
@@ -600,7 +629,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c15">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>소고 <span style="font-size:22px;">召誥</span></h2>
 <article class="card">
 <div><span class="badge">원문 71</span></div>
@@ -639,7 +668,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c16">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>낙고 <span style="font-size:22px;">洛誥</span></h2>
 <article class="card">
 <div><span class="badge">원문 76</span></div>
@@ -678,7 +707,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c17">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>다사 <span style="font-size:22px;">多士</span></h2>
 <article class="card">
 <div><span class="badge">원문 81</span></div>
@@ -717,7 +746,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c18">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>무일 <span style="font-size:22px;">無逸</span></h2>
 <article class="card">
 <div><span class="badge">원문 86</span></div>
@@ -756,7 +785,7 @@ footer{text-align:center;color:#6a5948;border-top:1px solid #dccab4;padding:30px
 </article>
 </section>
 <section id="c19">
-<a class="toplink" href="06.html#top">▲ 위로</a>
+<a class="toplink" href="file:///C:/Users/user/Downloads/%EC%84%9C%EA%B2%BD_%EB%93%9C%EB%A1%AD%EB%8B%A4%EC%9A%B4_%ED%81%B0%ED%95%9C%EC%9E%90_%EC%A0%84%EC%B2%B4.html#top">▲ 위로</a>
 <h2>입정 <span style="font-size:22px;">立政</span></h2>
 <article class="card">
 <div><span class="badge">원문 91</span></div>
